@@ -1,0 +1,128 @@
+/* Universal Style */
+body {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+div {
+  border: 1px solid white;
+}
+/* Header */
+header {
+  height: 69px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  position: fixed;
+  background-color: black;
+  top: 0px;
+}
+
+header a {
+  color: seashell;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 5;
+}
+
+/* Main Content */
+/* -- Mission -- */
+.mission {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  margin: 70px auto 20px auto;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+}
+
+.mission .text-content {
+  width: 1200px;
+  background-color: black;
+}
+
+/* -- Featured Tea -- */
+.tea {
+  margin: 0px auto 20px auto;
+  width: 1000px;
+}
+.showcase {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+}
+.showcase .text-content {
+  height: 35px;
+  font-weight: bold;
+}
+.type-ave {
+  margin-left: 100px;
+}
+.type-bizarre {
+  margin-right: 100px;
+}
+
+/* -- Locations -- */
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.locations h2 {
+  width: 1200px;
+  align-self: flex-end;
+}
+.locations div {
+  height: 250px;
+  width: 270px;
+  margin-bottom: 50px;
+}
+
+.locations-Downtown,
+.locations-EastBayside,
+.locations-Oakdale {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: black;
+}
+
+/* -- Footer -- */
+footer a {
+  text-decoration: none;
+  color: seashell;
+}
+footer .contact {
+  height: 200px;
+}
+
+footer .copyright {
+  text-align: left;
+  margin-left: 20px;
+}
